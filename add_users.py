@@ -18,4 +18,4 @@ def auth_token()
     
 token = auth_token()
 bearer_token = token["data"]["access_token"]
-print(bearer_token)
+print(bearer_token) 
