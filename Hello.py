@@ -38,3 +38,9 @@ def post_users(email, role, firstname, lastname):
   print(res)
 
 post_users("aditya@squadcast.com","user","Aditya","Anil")
+
+
+schedule_array=[]
+
+{'data': {'schedules': [{'teamID': '62b171a33318bc15fdbd5e11', 'name': 'Ganaz test', 'timeZone': 'US/Pacific', 'orgID': '6295c27e0f8eb5a1c7d8e1fe', 'description': '', 'rotations': [{'name': 'Daily 24 x 7', 'color': '#FFF6BFB3', 'startDate': '2023-08-02T00:00:00Z', 'period': 'weekly', 'changeParticipantsUnit': 'rotation', 'changeParticipantsFrequency': 1, 'endDate': None, 'shiftTimeSlot': {'startHour': 12, 'startMin': 0, 'duration': 1440}, 'endsAfterIterations': None}], 'owner': {'type': 'team', 'ID': '62b171a33318bc15fdbd5e11'}}]}}
+{"errors":[{"message":"Expected Name, found \u003cInvalid\u003e","locations":[{"line":1,"column":36}],"extensions":{"code":"GRAPHQL_PARSE_FAILED"}}],"data":null}
